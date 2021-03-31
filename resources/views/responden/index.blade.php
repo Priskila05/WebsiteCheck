@@ -130,7 +130,7 @@
                     <li class="nav-item">
                         <a href="{{ route('responden') }}" class="nav-link">
                             <i class="fa fa-database" aria-hidden="true"></i>
-                            <p>&nbsp;&nbsp;&nbsp;Data respon</p>
+                            <p>&nbsp;&nbsp;&nbsp;Data Responden</p>
                         </a>
                     </li>
                     @endif

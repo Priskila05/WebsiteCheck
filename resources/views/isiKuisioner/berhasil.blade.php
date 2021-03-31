@@ -40,7 +40,7 @@
                 <a href="{{ route('maps') }}" class="nav-link"><font color = "white">Maps Zone</font></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="{{ route('check') }}" class="nav-link"><font color = "white">Check Kondopsi</font></a>
+                <a href="{{ route('check') }}" class="nav-link"><font color = "white">Check Kondisi</font></a>
             </li>
         </ul>
 
@@ -117,7 +117,7 @@
                     <li class="nav-item">
                         <a href="{{ route('check') }}" class="nav-link">
                             <i class="fa fa-check-square" aria-hidden="true"></i>
-                            <p>&nbsp;&nbsp;&nbsp;Check Kondopsi</p>
+                            <p>&nbsp;&nbsp;&nbsp;Check Kondisi</p>
                         </a>
                     </li>
                     @if (auth()->user()->level=="Admin")
